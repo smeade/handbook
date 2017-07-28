@@ -1,0 +1,43 @@
+A place to brainstorm and whiteboard topics.
+
+* business strategy
+  * prioritizing work
+  * communicating value 
+  * communicating progress
+
+* technology strategy
+  * evaluate
+  * document
+  * implement
+  * communicate
+
+* daily routine
+  * plan day
+  * start task #1
+  * commit early and often
+  * tools (timer, time sheet, journal, pivotal)
+
+* source control
+  * git flow
+  * when to commit
+  * pull request process
+  
+* deployment
+
+* productivity
+  * time boxing
+  * planning  
+  * focus
+
+* learning
+  * how to learn
+  * what to learn
+  
+* teaching
+  * how to teach
+  * what to teach
+  
+* community
+  * contributing
+  * getting involved
+  * 
