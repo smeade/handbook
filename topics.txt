@@ -45,4 +45,4 @@ A place to brainstorm and whiteboard topics.
   * getting involved
   * conferences and organizations
   
-* book 
+* TIL
