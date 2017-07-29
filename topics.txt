@@ -55,5 +55,11 @@ A place to brainstorm and whiteboard topics.
     * amenties?
     * open floorplan
     * closed door offices
-  
+
+* action vs. planning
+  * do vs. plan
+  * document vs. work product
+  * documentation results from work 
+  * document what you did vs. document what you will do
+
 * TIL
