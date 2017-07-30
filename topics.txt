@@ -62,6 +62,6 @@ A place to brainstorm and whiteboard topics.
   * documentation results from work 
   * document what you did vs. document what you will do
 
-* book to read
+* books to read
 
 * TIL
