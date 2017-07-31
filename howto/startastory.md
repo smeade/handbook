@@ -1,4 +1,4 @@
-## How To Start Design and Development Work on a New Story
+## Start Design and Development Work on a New Story
 
 ### Pivotal Tracker
 
