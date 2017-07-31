@@ -22,7 +22,7 @@ This handbook serves as:
 * Introduction
   * About
 * Process
-  * [Start Design and Development Work on a New Story](howto/startastory.md)
+  * [Start Design and Development Work on a New Story](process/startastory.md)
 * 
   
 ## Inspired by
