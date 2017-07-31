@@ -22,12 +22,12 @@ Create a high level design document before a single line of code is written. Whi
 
 ### Develop
 
-Now that you have taken ownership of the story and have an initial understanding of how you will will develop the solution, it is time to dive in. We use [git](https://git-scm.com/) and [GitHub](https://github.com/). We use a simple branch handling strategy. Topic branches merge off of master, are deployed to an integration environment, and merge back into master when approved. See <as yet unwritten section> for details.
+Now that you have taken ownership of the story and have an initial understanding of how you will will develop the solution, it is time to dive in. We use [git](https://git-scm.com/) and [GitHub](https://github.com/). We use a simple branch handling strategy. Topic branches merge off of master, are deployed to an integration environment, and merge back into master when approved. See <as yet unwritten section> for details. Note: Consider something like [GitFLow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) as the team grows or company needs begin to lean toward standard release cycles.
 
 #### Ensure you are on the master branch.
 
 ```bash
-work:ffnext smeade$ git checkout master
+$ git checkout master
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
 ```
@@ -37,13 +37,31 @@ Your branch is up-to-date with 'origin/master'.
 Follow the naming convention of `<storynumber>-story-title`.
 
 ```bash
-work:ffnext smeade$ git checkout -b 143534991-export
+$ git checkout -b 143534991-export
 Switched to a new branch '143534991-export'
+```
+
+#### Ensure npm is up to date
+
+Additional `npm` libraries may have been recently introduced to `master` branch. Ensure your local development environment is up-to-date and prepared for tests.
+
+```bash
+$ cd client
+$ npm install
+$ npm run build
 ```
 
 #### Run the test suite
 
-The `master` branch should always be passing, so ideally this step is optional. Sometimes I run the specs to ensure that if any spec failures occur, I am assured that changes I made were the cause.
+The `master` branch should always be passing, so ideally this step is optional. Sometimes I run the specs to ensure that if any spec failures occur, I am assured that changes I made were the cause. 
+
+At the least, initiate guard.
+
+```bash
+$ guard
+10:30:37 - INFO - Guard::RSpec is running
+10:30:37 - INFO - Guard is now watching ...
+```
 
 #### Begin coding
 
