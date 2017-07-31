@@ -1,6 +1,6 @@
 # A Software Developer's Handbook
 
-An accounting of what a modern day software develoment team does and how what they do gets done.
+An accounting of what a modern day software develoment team does and how what they do it.
 
 Copyright © 2017 [Scott Meade](https://twitter.com/smeade).
 
