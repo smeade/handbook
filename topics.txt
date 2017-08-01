@@ -27,6 +27,10 @@ A place to brainstorm and whiteboard topics.
   * git flow
   * when to commit
   * pull request process
+
+* code
+  * code quality 
+  * code review
   
 * deployment
 
