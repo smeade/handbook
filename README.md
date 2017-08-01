@@ -22,6 +22,7 @@ This handbook serves as:
 * Introduction
   * About
 * Process
+  * [How I Work](process/howiwork.md)
   * [Start Design and Development Work on a New Story](process/startastory.md)
 * 
   
