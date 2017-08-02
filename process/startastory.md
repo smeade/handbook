@@ -24,12 +24,13 @@ Create a high level design document before a single line of code is written. Whi
 
 Now that you have taken ownership of the story and have an initial understanding of how you will will develop the solution, it is time to dive in. We use [git](https://git-scm.com/) and [GitHub](https://github.com/). We use a simple branch handling strategy. Topic branches merge off of master, are deployed to an integration environment, and merge back into master when approved. See <as yet unwritten section> for details. Note: Consider something like [GitFLow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) as the team grows or company needs begin to lean toward standard release cycles.
 
-#### Ensure you are on the master branch.
+#### Ensure you are on the master branch with latest
 
 ```bash
 $ git checkout master
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
+$ git pull origin master
 ```
 
 #### Create a topic branch
