@@ -1,6 +1,6 @@
 ## Fix a Bug
 
-### Pivotal Tracker
+### Review in Pivotal Tracker
 
 As with new feature develoment, we use [Pivotal Tracker](https://www.pivotaltracker.com). When a new bug is discovered, details of the bug are captured in Pivotal Tracker. See the [Reporting a Bug](unwritten). Bugs are prioritized in Pivotal Tracker among features and chores.
 
